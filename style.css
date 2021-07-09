@@ -1,0 +1,109 @@
+#bannerImg {
+	width: 100%;
+	position: relative;
+}
+
+#logo {
+	width: 30%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 260%;
+	text-align: left;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+a {
+	text-decoration: none;	 
+}
+
+p {
+	color: rgb(0,0,0);
+	padding: 10px;
+	font-size: 120%;
+}
+
+.cardImgs {
+	height: 356px;
+	width: 356px;
+	object-fit: cover;
+	border-radius: 20px;
+	box-shadow: 5px 10px 5px #DEDEDE;
+}
+
+li {
+	list-style-type: none;
+	line-height: 1.5;
+	padding: 10px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#bannerDiv {
+	display: flex;
+}
+
+h1 {
+	position: absolute;
+	transform: translate(40%,180%);
+	opacity: 0.8;
+}
+
+#logo {
+	position: absolute;
+	top: 20px;
+	left: 50px;
+}
+
+#bannerDiv > h2 {
+	position: absolute;
+	transform: translate(50%,1000%);
+	background-color: #000000;
+	padding: 10px;
+	border-radius: 20px;
+	color: pink;
+	font-size: 20px;
+}
+
+.otherheadings {
+	padding: 20px;
+	padding-left: 50px;
+	text-align: left;
+}
+
+#cardsDiv {
+	display: flex;
+	justify-content: space-evenly;
+ }
+
+
+
+ #listDiv {
+
+	display: flex;
+	justify-content: space-evenly;
+ }
+
+ #bannerDiv a {
+ 	color: pink;
+ }
+
+#button > a:hover {
+	color: white;
+}
+
+.cardImgs:hover {
+	opacity: 0.9;
+}
+
